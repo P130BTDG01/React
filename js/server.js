@@ -7,7 +7,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-const GOOGLE_API_KEY = 'AIzaSyCBbhBFR8esghICLNZSZ1l6CIy37V9UBmU';
+const GOOGLE_API_KEY = '';
 
 app.post('/text-to-speech', async (req, res) => {
     const texto = req.body.texto;
